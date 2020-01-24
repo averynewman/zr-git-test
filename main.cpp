@@ -6,3 +6,4 @@ etretseft
 wertertsadfg
 nnew text
 nnnnew text
+merge condition testing
