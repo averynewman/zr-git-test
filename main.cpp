@@ -3,6 +3,6 @@ void init(){
     
 }
 
-void main(){
+void loop(){
     
 }
