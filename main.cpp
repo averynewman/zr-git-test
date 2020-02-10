@@ -1,3 +1,1 @@
-initial text
-second new text
-doggy
+initial merge testing text
