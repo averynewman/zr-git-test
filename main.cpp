@@ -9,4 +9,5 @@ void loop() {
     api.setPositionTarget(pos);
     // AYAYA new commit
     // this is for merge testing
+    // this creates a merge conflict
 }
